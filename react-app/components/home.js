@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { increaseCounter, decreaseCounter } from '../actions';
 
-class Home extends React.Component {
+class Home extends Component {
   constructor(props) {
     super(props);
 
