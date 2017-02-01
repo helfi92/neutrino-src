@@ -1,11 +1,2 @@
-export const increaseCounter = () => {
-  return {
-    type: 'INCREASE_COUNTER',
-  };
-};
-
-export const decreaseCounter = () => {
-  return {
-    type: 'DECREASE_COUNTER',
-  };
-};
+export const increaseCounter = () => ({ type: 'INCREASE_COUNTER' });
+export const decreaseCounter = () => ({ type: 'DECREASE_COUNTER' });
